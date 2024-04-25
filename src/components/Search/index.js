@@ -22,23 +22,45 @@ const Caption = styled.h3`
     font-weight: 500;
     margin-bottom: 40px;
 `
-
+const Resultado = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    p {
+        width: 200px;
+    }
+    img {
+        width: 100px;
+    }
+    &:hover {
+        border: 1px solid white;
+    }
+`
 function Search() {
     const [livrosPesquisados, setLivrosPesquisados] = useState([])
 
-    console.log(livrosPesquisados)
+    function doResearch(evento) {
+        const textoDigitado = evento.target.value
+        const resultadoPesquisa = livros.filter( livro => livro.nome.includes(textoDigitado))
+        setLivrosPesquisados(resultadoPesquisa)
+    }
+
     return (
         <SearchContainer>
             <Title>Já sabe por onde começar?</Title>
             <Caption>Encontre seu livro em nossa estante.</Caption>
             <Input
                 placeholder="Escreva sua próxima leitura"
-                onBlur={evento => {
-                    const textoDigitado = evento.target.value
-                    const resultadoPesquisa = livros.filter(livro => livro.nome.includes(textoDigitado))
-                     setLivrosPesquisados(resultadoPesquisa)
-                }}
+                onBlur={evento => { doResearch(evento); }}
             />
+            {livrosPesquisados.map( livro => (
+                <Resultado>
+                    <p>{livro.nome}</p>
+                    <img src={livro.src}/>
+                </Resultado>
+            ))}
         </SearchContainer>
     )
 }
