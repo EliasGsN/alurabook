@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Alura Books
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code of the Alura Books project, developed while learning concepts such as componentization, styled components, state management, manipulation of filters and arrays, and the use of props.
 
-## Available Scripts
+## About the Project
 
-In the project directory, you can run:
+Alura Books is a book website created as part of the Alura web development course, where various important concepts for modern web application development were applied.
 
-### `npm start`
+## Applied Concepts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Componentization:** We learned to divide our application into reusable components, making maintenance and code organization easier.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Styled Components:** We used styled components to style our components without the need for separate CSS files, keeping the CSS alongside the component.
 
-### `npm test`
+- **State Management:** We implemented the concept of state to manage the application state, allowing dynamic interactions with the user, such as the search bar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Manipulation of Filters and Arrays:** We used filters and arrays to manipulate and display application data dynamically, creating a functional search component.
 
-### `npm run build`
+- **Props:** We learned to pass props between components, allowing communication and customization of the components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Use
+1. Clone this repository:
+git clone https://github.com/your-username/alura-books.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##
+2. Install the dependencies:
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##
+3. Run the project:
+npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribution
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Feel free to open an issue if you encounter any problems or submit a pull request with improvements.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project was developed by [EliasGsN](https://github.com/EliasGsN) during the web development course at [Alura](https://www.alura.com.br/).
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
