@@ -19,14 +19,13 @@ Alura Books is a book website created as part of the Alura web development cours
 - **Props:** We learned to pass props between components, allowing communication and customization of the components.
 
 ## How to Use
+
 1. Clone this repository:
 git clone https://github.com/your-username/alura-books.git
 
-##
 2. Install the dependencies:
 npm install
 
-##
 3. Run the project:
 npm start
 
